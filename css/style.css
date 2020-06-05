@@ -5,13 +5,25 @@
 }
 
 .container {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    margin: 50px auto;
+    /* height: 500px; */
     background-color: red;
-    background-size: cover;
-    position: relative;
+    text-align: center;
 }
 
+.destinazione {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.destinazione img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 .titolo {
