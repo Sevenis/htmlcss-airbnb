@@ -4,32 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightgrey;
+}
+
 .container {
-    width: 400px;
-    margin: 50px auto;
-    /* height: 500px; */
-    background-color: red;
+    width: 700px;
+    margin: 20px auto;
     text-align: center;
 }
 
 .destinazione {
-    /* width: 400px;
-    height: 400px; */
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
+    width: 704px;
+    height: 304px;
+    /* background-color: red; */
     position: relative;
+    border: 2px solid white;
 }
 
 .destinazione img {
-    /* width: 400px;
-    height: 400px; */
-    width: 100vw;
-    height: 100vh;
+    width: 700px;
+    height: 300px;
     object-fit: cover;
     object-position: center;
 }
-
 
 .titolo {
     color: white;
@@ -38,4 +36,13 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
 }
