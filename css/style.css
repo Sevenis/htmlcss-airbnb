@@ -13,14 +13,19 @@
 }
 
 .destinazione {
-    width: 400px;
-    height: 400px;
+    /* width: 400px;
+    height: 400px; */
+    width: 100vw;
+    height: 100vh;
     background-color: black;
+    position: relative;
 }
 
 .destinazione img {
-    width: 400px;
-    height: 400px;
+    /* width: 400px;
+    height: 400px; */
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
 }
@@ -30,4 +35,7 @@
     color: white;
     position: absolute;
     text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
